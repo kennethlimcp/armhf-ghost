@@ -4,3 +4,16 @@ This repo contains a modified [Dockerfile](Dockerfile) that works for armhf and 
 
 
 Original repo: https://github.com/docker-library/ghost
+
+
+### Steps to update [GHOST](https://ghost.org) version
+
+```sh
+$ git checkout master
+$ ./update.sh
+$ git add Dockerfile
+$ git commit
+$ git tag x.x.x
+$ git push origin <tag_name>
+$ git push
+```
