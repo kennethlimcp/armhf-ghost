@@ -1,0 +1,13 @@
+language: bash
+
+services:
+ - docker
+
+before_script:
+ - file='Dockerfile'
+
+script:
+ - docker build -f "$file" .
+
+after_script:
+ - docker images
