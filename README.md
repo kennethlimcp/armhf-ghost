@@ -5,6 +5,7 @@ This repo contains a modified [Dockerfile](Dockerfile) that works for armhf and 
 
 Original repo: https://github.com/docker-library/ghost
 
+The automated build can be viewed/pulled at: https://hub.docker.com/r/kennethlimcp/armhf-ghost/
 
 ### Steps to update [GHOST](https://ghost.org) version
 
