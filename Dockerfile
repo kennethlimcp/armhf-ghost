@@ -26,7 +26,7 @@ ENV GHOST_SOURCE /usr/src/ghost
 WORKDIR $GHOST_SOURCE
 
 # Install Node
-RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash -
+RUN curl -sL https://deb.nodesource.com/setup_4.x | bash -
 RUN apt-get install -y nodejs
 #RUN ln -s /usr/bin/nodejs /usr/bin/node
 #RUN apt-get install -y npm
