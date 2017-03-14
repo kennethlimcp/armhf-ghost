@@ -7,7 +7,7 @@ before_script:
  - file='Dockerfile'
 
 script:
- - travis_wait docker build -f "$file" .
+ - travis_wait 40 docker build -f "$file" .
 
 after_script:
  - docker images
