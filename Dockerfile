@@ -31,7 +31,7 @@ RUN apt-get install -y nodejs
 #RUN ln -s /usr/bin/nodejs /usr/bin/node
 #RUN apt-get install -y npm
 
-ENV GHOST_VERSION 0.11.10
+ENV GHOST_VERSION 0.11.11
 
 RUN buildDeps=' \
 	node-gyp \
